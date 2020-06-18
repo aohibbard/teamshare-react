@@ -1,68 +1,63 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# TEAMSHARE README
 
-## Available Scripts
+Welcome - so glad you're here! This is the front end of TeamShare. You're welcome to click below for the back end: 
 
-In the project directory, you can run:
+https://github.com/aohibbard/teamshare-api
 
-### `yarn start`
+# Video Walkthrough
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This app was created by Andrew Hibbard and Anna Wijetunga. Video walkthrough coming soon!
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+# TeamShare (front end)
 
-### `yarn test`
+TeamShare is a mobile app built using a Rails API back end. It communicates with the front end, built with React Native.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+React Native is a framework for cross-platform mobile app development for iOS and Android.
 
-### `yarn build`
+## Overview
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+TeamShare is just what you need to keep track of your work on any project with a partner or a team. Create an account (or log in to an existing account) in order to track projects you're working on in collaboration with your team.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+At any moment, you can see any and all users working on your project, as well as the deadline for its completion. You can also track objectives for each project, and each objective can belong to one or many users.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Once complete, you can mark a project as completed and move on to the next project.
 
-### `yarn eject`
+Happy building!
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Installation
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Fork and clone repo
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+    $ git clone https://github.com/aohibbard/teamshare-api
+    $ git clone https://github.com/AnnaWijetunga/teamshare-frontend
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Using two terminals, switch to each respective directory
 
-## Learn More
+    $ cd teamshare-api
+    $ cd teamshare-frontend
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Startup the server (within the back end terminal)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    $ rails s
 
-### Code Splitting
+Enter in browser to launch the rails server
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+    $ localhost:3000
 
-### Analyzing the Bundle Size
+Startup the server (within the front end terminal)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+    $ TBD 
 
-### Making a Progressive Web App
+## Usage
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+Welcome!
 
-### Advanced Configuration
+More, coming soon.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+## Contributing
 
-### Deployment
+This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+## License
 
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
