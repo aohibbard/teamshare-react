@@ -48,7 +48,7 @@ Enter in browser to launch the rails server
 
 Startup the server (within the front end terminal)
 
-    $ TBD 
+    $ open index.html
 
 ## Usage
 
