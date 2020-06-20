@@ -31,7 +31,7 @@ Happy building!
 Fork and clone repo
 
     $ git clone https://github.com/aohibbard/teamshare-api
-    $ git clone https://github.com/AnnaWijetunga/teamshare-frontend
+    $ git clone https://github.com/aohibbard/teamshare-react
 
 Using two terminals, switch to each respective directory
 
