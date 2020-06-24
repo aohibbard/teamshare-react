@@ -14,8 +14,6 @@ This app was created by Andrew Hibbard and Anna Wijetunga. Video walkthrough com
 
 TeamShare is an app built using a Rails API back end. It communicates with the front end, built with React.
 
-React Native is a framework for cross-platform mobile app development for iOS and Android.
-
 ## Overview
 
 TeamShare is just what you need to keep track of your work on any project with a partner or a team. Create an account (or log in to an existing account) in order to track projects you're working on in collaboration with your team.
@@ -36,7 +34,7 @@ Fork and clone repo
 Using two terminals, switch to each respective directory
 
     $ cd teamshare-api
-    $ cd teamshare-frontend
+    $ cd teamshare-react
 
 Startup the server (within the back end terminal)
 
